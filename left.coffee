@@ -1,7 +1,7 @@
-command: "bash Pecan/scripts/ws"
+command: "date +\"%a, %b %d\""
 
-refreshFrequency: 1000 # ms
+refreshFrequency: 100000
 
 render: (output) ->
-  "<div class='screen'><div class='left'>#{output}</div></div>"
+  "<div class='screen'><div class='left'>#{output}</div></div></div>"
 

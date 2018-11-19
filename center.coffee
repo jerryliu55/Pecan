@@ -1,4 +1,4 @@
-command: "bash Pecan/scripts/ws"
+command: 'echo "$(bash Pecan/scripts/ws) | $(/usr/local/bin/python3 Pecan/scripts/taskwarrior.py)"'
 
 refreshFrequency: 1000 # ms
 

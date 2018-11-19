@@ -10,11 +10,11 @@
   --pecan-bg-right2: none;
   --pecan-bg-right: none;
   /* Choose foreground colors */
-  --pecan-fg-left: #e1d6c9;
+  --pecan-fg-left: #444444;
   --pecan-fg-left2: #1D6E8F;
-  --pecan-fg-center: #e1d6c9;
+  --pecan-fg-center: #444444;
   --pecan-fg-right2: #FD95A9;
-  --pecan-fg-right: #e1d6c9;
+  --pecan-fg-right: #444444;
   /* Opacity.  Change --pecan-opacity-center to 0 in order to hide date */
   /* --pecan-opacity affects --pecan-border, so set it to 0 if you would like */
   /* for every widget to appear independent. */
@@ -47,7 +47,7 @@
   --pecan-alignment-top: 0;
   --pecan-alignment-bottom: auto;
   /* Mono font recommended (alignment depends on character width) */
-  --pecan-font: Helvetica, Iosevka, SF Mono, Menlo;
+  --pecan-font: Iosevka, SF Mono, Menlo;
   --pecan-font-size: 13px;
   --pecan-font-style: none;
   /* Xanthia */

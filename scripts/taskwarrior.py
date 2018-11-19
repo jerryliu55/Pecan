@@ -11,6 +11,7 @@ task_desc = os.popen(f"/usr/local/bin/task _get {active_task_id}.description").r
 
 # task command returns "school,asmt,cs343"
 task_tags = os.popen(f"/usr/local/bin/task _get {active_task_id}.tags").read().strip().split(",")
-task_tags = " ".join([f"+{t}" for t in task_tags])
+#  task_tags = " ".join([f"+{t}" for t in sorted(task_tags)])
+task_tags = " ".join(sorted(task_tags))
 
 print(f"[{task_tags}] {task_desc}", end="")

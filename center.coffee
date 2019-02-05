@@ -1,4 +1,4 @@
-command: 'echo "$(bash Pecan/scripts/ws) | $(/usr/local/bin/python3 Pecan/scripts/taskwarrior.py)"'
+command: "/usr/local/bin/timew | tail -1 | awk '{print $2}' | /usr/local/bin/python3 -c \"print(':'.join(input().split(':')[:-1]))\""
 
 refreshFrequency: 1000 # ms
 

@@ -44,8 +44,8 @@
   /* Alignment */
   /* Set 0 to where you want the bar aligned */
   /* and "auto" where you don't */
-  --pecan-alignment-top: 0;
-  --pecan-alignment-bottom: auto;
+  --pecan-alignment-top: auto;
+  --pecan-alignment-bottom: 0;
   /* Mono font recommended (alignment depends on character width) */
   --pecan-font: Iosevka, SF Mono, Menlo;
   --pecan-font-size: 13px;

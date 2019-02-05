@@ -1,4 +1,4 @@
-command: "/usr/local/bin/timew | tail -1 | awk '{print $2}' | /usr/local/bin/python3 -c \"print(':'.join(input().split(':')[:-1]))\""
+command: "/usr/local/bin/timew sum | grep \" - \" | /usr/local/bin/python3 -c \"print(input().split()[-2])\" | /usr/local/bin/python3 -c \"print(':'.join(input().split(':')[:-1]))\""
 
 refreshFrequency: 1000 # ms
 
